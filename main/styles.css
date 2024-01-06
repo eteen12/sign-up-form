@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
 
  body{
     margin:0;
@@ -54,7 +54,47 @@
 @media screen and (min-width: 2400px) and (max-width:2715px){
     .logo-p{
         font-size:11em;
-        bottom:84%;
-        color:red;
+        bottom:87%;
+        font-size: 12em;
     }
+}
+
+
+.section2{
+    position: relative;
+    margin:0;
+    padding:0;
+    width:70%;
+    background-color: #F5F5F5;
+    left: 35%;
+    bottom:615px;
+    padding:50px;
+}
+@media screen and (min-width:1020px) and (max-width:1030px){
+    .section2{
+        position: relative;
+        margin:0;
+        padding:0;
+        width:70%;
+        left: 35%;
+        bottom:528px;
+        padding:50px;
+    }
+}
+@media screen and (min-width:1430px) and (max-width:1450px){
+    .section2{
+        position: relative;
+        margin:0;
+        padding:0;
+        width:70%;
+        left: 35%;
+        bottom:734px;
+        padding:70px;
+    }
+}
+
+ul li{
+    list-style: none;
+    font-family: 'Overlock SC', sans-serif;
+    font-size: 25px;
 }
