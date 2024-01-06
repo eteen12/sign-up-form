@@ -101,14 +101,21 @@ ul li{
         padding:70px;
     }
 }
-.disc{
-    font-family: 'Sarabun', sans-serif;
-}
-form{
+.section3{
+    margin: 0;
+    padding: 0;
     position: relative;
     left:43%;
     bottom:600px;
 }
+.disc{
+    font-family: 'Sarabun', sans-serif;
+}
+/* form{
+    position: relative;
+    left:43%;
+    bottom:600px;
+} */
 .form-row {
     display: flex;
     justify-content: space-between;
