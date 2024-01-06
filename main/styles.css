@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@200&display=swap');
+
+
+ body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+ }
+
+.section1{
+    height: 100vh;
+    width: 100vw;
+    padding:0;
+    margin:0;
+}
+.main-img{
+    position: relative;
+    width: 35%;
+    height:100vh;
+    z-index: 1;
+}
+.main-logo{
+    position: relative;
+    width: 9%;
+    height: auto;
+    right:34%;
+    bottom: 50%;
+    z-index: 2;
+}
+.logo-p{
+    position: relative;
+    font-family: 'Genos', sans-serif;
+    font-size: 6em;
+    left:13%;
+    bottom: 90%;
+    color: white;
+    z-index: 2;
+}
+@media screen and (max-width: 1024px) and (min-width:1010px) {
+    .logo-p {
+        bottom: 88%;
+        font-size: 5em;
+        left: 11%;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width:1430px) {
+    .logo-p {
+        bottom: 87%;
+        font-size: 7em;
+        left: 11%;
+    }
+}
+@media screen and (min-width: 2400px) and (max-width:2715px){
+    .logo-p{
+        font-size:11em;
+        bottom:84%;
+        color:red;
+    }
+}
