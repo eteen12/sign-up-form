@@ -105,17 +105,14 @@ ul li{
     margin: 0;
     padding: 0;
     position: relative;
-    left:43%;
+    left:42%;
     bottom:600px;
+    border-top:1px solid #F5F5F5;
+    border-bottom:1px solid #F5F5F5;
 }
 .disc{
     font-family: 'Sarabun', sans-serif;
 }
-/* form{
-    position: relative;
-    left:43%;
-    bottom:600px;
-} */
 .form-row {
     display: flex;
     justify-content: space-between;
@@ -138,5 +135,25 @@ input {
     margin-bottom: 15px;
     border:none;
     border-bottom: 1px solid black;
+}
+.section4{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left:42%;
+    bottom:570px;
+}
+button{
+    box-shadow: 0px 2px 2px 0px;
+    font-family: 'Sarabun', sans-serif;
+    background-color: #80ad56 ;
+    border-radius: 15px;
+    padding:10px;
+    width:14%;
+    font-size: 1em;
+    color:white;
+}
+a{
+    color:#80ad56;
 }
 
