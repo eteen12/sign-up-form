@@ -90,7 +90,7 @@ ul li{
         padding:50px;
     }
 }
-@media screen and (min-width:1430px) and (max-width:1450px){
+@media screen and (min-width:1430px) and (min-height:1500px){
     .section2{
         position: relative;
         margin:0;
@@ -136,6 +136,22 @@ input {
     border:none;
     border-bottom: 1px solid black;
 }
+@media screen and (min-width:1010px) and (max-width:1030px){
+    .section3{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left:42%;
+        border-top:1px solid #F5F5F5;
+        border-bottom:1px solid #F5F5F5;
+    }
+   
+}
+@media screen and (min-width:1430px) and (max-width:1450px){
+    .section3{
+        bottom:700px;
+    }
+}
 .section4{
     margin: 0;
     padding: 0;
@@ -153,7 +169,26 @@ button{
     font-size: 1em;
     color:white;
 }
+button:hover{
+    color:black;
+}
+.log-in{
+    font-family: 'Sarabun', sans-serif;
+}
 a{
     color:#80ad56;
+}
+@media screen and (min-width:1900px) and (min-height:900px){
+    .section2{
+        bottom:920px;
+    }
+    .section3{
+        bottom:850px;
+        border:none;
+    }
+    .section4{
+        bottom: 750px;
+    }
+
 }
 
